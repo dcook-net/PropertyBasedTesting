@@ -1,0 +1,9 @@
+/Users/davidcook/PropertyBasedTesting/Calculator/Calculator/bin/Debug/netcoreapp3.0/Calculator.deps.json
+/Users/davidcook/PropertyBasedTesting/Calculator/Calculator/bin/Debug/netcoreapp3.0/Calculator.dll
+/Users/davidcook/PropertyBasedTesting/Calculator/Calculator/bin/Debug/netcoreapp3.0/Calculator.pdb
+/Users/davidcook/PropertyBasedTesting/Calculator/Calculator/obj/Debug/netcoreapp3.0/Calculator.csprojAssemblyReference.cache
+/Users/davidcook/PropertyBasedTesting/Calculator/Calculator/obj/Debug/netcoreapp3.0/Calculator.csproj.CoreCompileInputs.cache
+/Users/davidcook/PropertyBasedTesting/Calculator/Calculator/obj/Debug/netcoreapp3.0/Calculator.AssemblyInfoInputs.cache
+/Users/davidcook/PropertyBasedTesting/Calculator/Calculator/obj/Debug/netcoreapp3.0/Calculator.AssemblyInfo.cs
+/Users/davidcook/PropertyBasedTesting/Calculator/Calculator/obj/Debug/netcoreapp3.0/Calculator.dll
+/Users/davidcook/PropertyBasedTesting/Calculator/Calculator/obj/Debug/netcoreapp3.0/Calculator.pdb
