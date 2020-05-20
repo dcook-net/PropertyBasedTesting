@@ -1,9 +1,0 @@
-/Users/davidcook/PropertyBasedTesting/DiamondKata/obj/Debug/netcoreapp3.0/DiamondKata.csprojAssemblyReference.cache
-/Users/davidcook/PropertyBasedTesting/DiamondKata/obj/Debug/netcoreapp3.0/DiamondKata.csproj.CoreCompileInputs.cache
-/Users/davidcook/PropertyBasedTesting/DiamondKata/obj/Debug/netcoreapp3.0/DiamondKata.AssemblyInfoInputs.cache
-/Users/davidcook/PropertyBasedTesting/DiamondKata/obj/Debug/netcoreapp3.0/DiamondKata.AssemblyInfo.cs
-/Users/davidcook/PropertyBasedTesting/DiamondKata/bin/Debug/netcoreapp3.0/DiamondKata.deps.json
-/Users/davidcook/PropertyBasedTesting/DiamondKata/bin/Debug/netcoreapp3.0/DiamondKata.dll
-/Users/davidcook/PropertyBasedTesting/DiamondKata/bin/Debug/netcoreapp3.0/DiamondKata.pdb
-/Users/davidcook/PropertyBasedTesting/DiamondKata/obj/Debug/netcoreapp3.0/DiamondKata.dll
-/Users/davidcook/PropertyBasedTesting/DiamondKata/obj/Debug/netcoreapp3.0/DiamondKata.pdb
