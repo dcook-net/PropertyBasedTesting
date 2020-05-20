@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleBasedTesting", "Exam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyBasedTesting", "PropertyBasedTesting\PropertyBasedTesting.csproj", "{F801C696-4FF1-4EB9-9D73-5400D2539AA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiamondKata", "DiamondKata\DiamondKata.csproj", "{6B6DF5BA-F26E-4C99-A0C8-2D8E613A5768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiamondKata.PropertyBasedTests", "DiamondKata.PropertyBasedTests\DiamondKata.PropertyBasedTests.csproj", "{79849B16-DCFB-4D6D-BEB5-3B710595857E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{F801C696-4FF1-4EB9-9D73-5400D2539AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F801C696-4FF1-4EB9-9D73-5400D2539AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F801C696-4FF1-4EB9-9D73-5400D2539AA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B6DF5BA-F26E-4C99-A0C8-2D8E613A5768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B6DF5BA-F26E-4C99-A0C8-2D8E613A5768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B6DF5BA-F26E-4C99-A0C8-2D8E613A5768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B6DF5BA-F26E-4C99-A0C8-2D8E613A5768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79849B16-DCFB-4D6D-BEB5-3B710595857E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79849B16-DCFB-4D6D-BEB5-3B710595857E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79849B16-DCFB-4D6D-BEB5-3B710595857E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79849B16-DCFB-4D6D-BEB5-3B710595857E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
