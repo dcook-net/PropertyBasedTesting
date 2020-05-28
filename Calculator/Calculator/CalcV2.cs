@@ -5,6 +5,9 @@ namespace Calculator
         public static int Add(this int a, int b) =>
             Add(a.ToString(), b.ToString());
 
+        //Using dynamic here only in order to simulate dynamic typing in
+        //javascript. This is not an endorsement.
+        //Please you the type system
         private static dynamic Add(string a, string b)
         {
             if (a is null || b is null) return 0;

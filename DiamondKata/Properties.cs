@@ -4,7 +4,7 @@ namespace DiamondKata
 {
     public static class Diamond
     {
-        public static List<string> Create(char letter)
+        public static IEnumerable<string> Create(char letter)
         {
             return new List<string>();
         }

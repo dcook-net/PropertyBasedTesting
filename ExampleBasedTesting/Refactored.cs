@@ -17,9 +17,12 @@ namespace ExampleBasedTesting
         [TestCase("2", null, 0)]
         [TestCase(null, null, 0)]
         [TestCase("1", "2147483647", -2147483648)]
+        //Using dynamic here only in order to simulate dynamic typing in
+        //javascript. This is not an endorsement.
+        //Please you the type system
         public void ShouldAddTwoNumberTogether(string a, string b, dynamic expected)
         {
-            var result = Add(a, b);
+            var result = a.Add(b);
 
             Assert.That(result, Is.EqualTo(expected));
         }

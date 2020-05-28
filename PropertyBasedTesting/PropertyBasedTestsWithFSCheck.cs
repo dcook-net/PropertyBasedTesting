@@ -10,7 +10,6 @@ namespace PropertyBasedTesting
         public void Order_Of_Params_Does_Not_Matter(int a, int b)
         {
             var result = a.Add(b);
-    
             var expected = b.Add(a);
     
             Assert.Equal(result, expected);
@@ -20,13 +19,12 @@ namespace PropertyBasedTesting
         public void Adding_1_Twice_Is_The_Same_As_Adding_2_Once(int x)
         {
             var result = x.Add(1).Add(1);
-    
             var expected = x.Add(2);
     
             Assert.Equal(result, expected);
         }
 
-        [Property]
+        [Property(Verbose = true, MaxTest = 150)]
         public void Adding_Zero_To_X_Returns_X(int x)
         {
             var result = x.Add(0);

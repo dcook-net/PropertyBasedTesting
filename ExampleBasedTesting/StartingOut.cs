@@ -16,7 +16,7 @@ namespace ExampleBasedTesting
             const int b = 2;
             const int expected = 12;
 
-            var result = Add(a.ToString(), b.ToString());
+            var result = a.Add(b);
 
             Assert.That(result, Is.EqualTo(expected));
         }
@@ -28,7 +28,7 @@ namespace ExampleBasedTesting
             const int b = -2;
             const int expected = -12;
 
-            var result = Add(a.ToString(), b.ToString());
+            var result = a.Add(b);
 
             Assert.That(result, Is.EqualTo(expected));
         }
@@ -38,7 +38,7 @@ namespace ExampleBasedTesting
         {
             const int zero = 0;
             
-            var result = Add(zero.ToString(), zero.ToString());
+            var result = zero.Add(zero);
         
             Assert.That(result, Is.EqualTo(zero));
         }
