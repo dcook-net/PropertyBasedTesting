@@ -12,6 +12,7 @@ namespace DiamondKata.PropertyBasedTests
         // [Property(Verbose = true, Arbitrary=new [] {typeof(InValidCharacters)})]
         public void OurFirstProperty(char letter)
         {
+            //TODO: write our first Property Based Test
         }
 
 // Expected output for F:        
