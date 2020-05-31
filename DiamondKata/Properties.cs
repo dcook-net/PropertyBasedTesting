@@ -1,12 +1,7 @@
-﻿using System.Collections.Generic;
-
-namespace DiamondKata
+﻿namespace DiamondKata
 {
-    public static class Diamond
+    public class Diamond
     {
-        public static IEnumerable<string> Create(char letter)
-        {
-            return new List<string>();
-        }
+        //TODO: Add Implementation
     }
 }
