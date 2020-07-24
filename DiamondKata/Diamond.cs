@@ -63,29 +63,22 @@ namespace DiamondKata
             return $"{buffer}{value}{buffer}";
         }
 
-        private static string BuildBuffer(int length)
-        {
-            var buffer = Enumerable
+        private static string BuildBuffer(int length) =>
+            Enumerable
                 .Range(1, length)
                 .Select(x => " ")
                 .Aggregate((a, b) => a + b);
-            return buffer;
-        }
     }
     
     public static class CharExtensions
     {
-        public static int ToInt(this char letter)
-        {
-            return letter.ToString().ToUpper().ToCharArray().First() - 64;
-        }
+        public static int ToInt(this char letter) 
+            => letter.ToString().ToUpper().ToCharArray().First() - 64;
     }
 
     public static class IntExtensions
     {
-        public static char ToChar(this int number)
-        {
-            return (char)(number + 64);
-        }
+        public static char ToChar(this int number) 
+            => (char)(number + 64);
     }
 }
